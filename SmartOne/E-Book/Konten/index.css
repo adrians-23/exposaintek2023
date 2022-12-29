@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    height: ;
+}

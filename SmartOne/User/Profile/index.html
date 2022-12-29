@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judul</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/imgHover/imagehover.min.css">
+    <link rel="stylesheet" href="../../assets/viewerjs/css/viewer.css">
+    <link rel="stylesheet" href="../../assets/aos/aos.css">
+
+</head>
+<body>
+
+    <div class="wrapper main-wrapper bg-light" style="height: 100%;">
+
+      <!-- Navbar -->
+
+      <header class="p-3" style="background-color: white;">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="../../assets/gambar/logo smart one.png" alt="Logo" style="width: 30px;">
+              <a class="navbar-brand text-black ms-2 me-5" href="#">SMART ONE</a>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-black">Kelas</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">E-Book</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Roadmap</a></li>
+                  <li><a class="dropdown-item" href="#">Kelas Online</a></li>
+                  <li><a class="dropdown-item" href="#">Video Pembelajaran</a></li>
+                  <li><a class="dropdown-item" href="#">Group</a></li>
+                </ul>
+              </li>
+            </ul>
+    
+            <div class="input-group me-5" style="width: 300px;">
+              <!-- <span class="btn btn-outline-secondary"><i class="fa-solid fa-magnifying-glass"></i></span> -->
+              <input type="text" class="form-control rounded-pill" placeholder="&#xf002; Search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+            </div>
+
+            <!-- <form class="d-flex col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <span class="input-group-text"><i class="fas fa-search"></i></span>
+              </button><input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search&hellip;" aria-label="Search">
+            </form> -->
+    
+            <div class="text-end">
+              <button type="button" class="btn me-2">Login</button>
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- End Navbar -->
+
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- Sidebar -->
+
+          <div class="sidebar col-md-3 col-lg-2 d-md-block collapse shadow-sm">
+            <aside id="sidebar-wrapper">
+              <div class="p-3">
+                <strong class="mb-3 align-items-center"><span class="fs-4">USER</span></strong>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link link-dark">
+                        <i class="fa fa-graduation-cap"></i> Kursus Saya
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link active" aria-current="page">
+                        <i class="fa fa-user"></i> Profile
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+
+          <!-- End Sidebar -->
+  
+          <!-- Content -->
+    
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-5 mt-3">
+            
+            <div class="card border shadow-sm mb-4 rounded">
+                <div class="card-header text-dark"><i class="fa fa-user-circle"></i> Profil Saya</div>
+                <div class="card-body">
+                    <form action="#">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="col-md-12">
+                            <div class="">
+                              <div class="card-body text-center">
+                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                                      alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                                  <h5 class="my-3">Smart One</h5>
+                                  <button type="button" class="btn btn-tool btn-primary shadow-sm rounded" style="width: 150px;">
+                                      Edit Foto Profile
+                                  </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+  
+                        <div class="col-8">
+  
+                            <div class="form-group mb-3">
+                                <label class="mb-2 font-weight-600">Nama</label>
+                                <div class="input-group mb-3">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        
+                            <div class="form-group mb-3">
+                                <label class="mb-2 font-weight-600">Email</label>
+                                <div class="input-group mb-3">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                      
+                            <div class="form-group mb-3">
+                                <label class="mb-2 font-weight-600">Username</label>
+                                <div class="input-group mb-3">
+                                  <span class="input-group-text" id="basic-addon1">@</span>
+                                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        
+                            <div class="form-group mb-3">
+                                <label class="mb-2 font-weight-600">Telepon</label>
+                                <div class="input-group mb-3">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
+                                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="text-end mt-2">
+                            <button type="submit" class="btn btn-primary shadow-sm">Update Profile</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </form>
+                </div>
+            </div>
+          </main>
+    
+          <!-- End Content -->
+        </div>
+      </div>
+
+
+    </div>
+	
+
+    <script src="https://unpkg.com/jquery@3/dist/jquery.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/fontawesome/js/all.min.js"></script>
+    <script src="../../assets/smoothScroll/smooth-scroll.polyfills.js"></script>
+    <script src="../../assets/aos/aos.js"></script>
+</body>
+</html>
